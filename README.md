@@ -36,3 +36,23 @@ Open your **Anaconda Prompt** or **Jupyter terminal** and run the following comm
 ```bash
 pip install aif360==0.7.0
 pip install fairlearn==0.9.1
+
+Step 2: Using conda (Windows + Anaconda)
+
+If pip does not work on Windows + Anaconda, you can run:
+
+conda install -c conda-forge fairlearn -y
+
+
+Before installation, you may need to accept the terms of service line by line:
+
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/msys2
+
+conda install -c conda-forge fairlearn -y
+
+
+License
+
+This project is licensed under the MIT License.
